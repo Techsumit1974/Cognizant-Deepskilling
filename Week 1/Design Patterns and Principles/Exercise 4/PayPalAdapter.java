@@ -1,0 +1,1 @@
+class PayPalAdapter implements PaymentProcessor{PayPalGateway g=new PayPalGateway();public void processPayment(double a){g.makePayment(a);}}

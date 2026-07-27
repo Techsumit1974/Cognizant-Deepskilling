@@ -1,0 +1,1 @@
+class StudentView{void displayStudentDetails(Student s){System.out.println(s.name+" "+s.id+" "+s.grade);}}

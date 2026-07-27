@@ -1,0 +1,1 @@
+interface Notifier{void send();}

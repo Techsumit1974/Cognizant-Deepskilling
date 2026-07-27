@@ -1,0 +1,1 @@
+public class Main{public static void main(String[]a){new PayPalAdapter().processPayment(100);new StripeAdapter().processPayment(200);}}

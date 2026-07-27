@@ -1,0 +1,1 @@
+class Student{String name,id,grade;Student(String n,String i,String g){name=n;id=i;grade=g;}}

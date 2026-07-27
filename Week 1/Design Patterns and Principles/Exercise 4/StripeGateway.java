@@ -1,0 +1,1 @@
+class StripeGateway{void pay(double a){System.out.println("Stripe "+a);}}

@@ -1,0 +1,8 @@
+{
+"courses":[
+{"id":1,"name":"Angular","credits":4},
+{"id":2,"name":"Java","credits":3}
+],
+"students":[],
+"enrollments":[]
+}

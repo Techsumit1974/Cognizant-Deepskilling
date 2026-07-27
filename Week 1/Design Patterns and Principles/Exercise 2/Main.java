@@ -1,0 +1,1 @@
+public class Main{public static void main(String[]a){new WordFactory().createDocument().open();new PdfFactory().createDocument().open();new ExcelFactory().createDocument().open();}}

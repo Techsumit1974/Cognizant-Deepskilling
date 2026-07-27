@@ -1,0 +1,1 @@
+import java.util.*;class StockMarket implements Stock{List<Observer>obs=new ArrayList<>();double p;public void register(Observer o){obs.add(o);}public void deregister(Observer o){obs.remove(o);}public void notifyObservers(){for(Observer o:obs)o.update(p);}void setPrice(double x){p=x;notifyObservers();}}

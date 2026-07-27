@@ -1,0 +1,1 @@
+interface PaymentProcessor{void processPayment(double a);}

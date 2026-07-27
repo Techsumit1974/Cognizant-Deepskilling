@@ -1,0 +1,1 @@
+interface PaymentStrategy{void pay(int a);}

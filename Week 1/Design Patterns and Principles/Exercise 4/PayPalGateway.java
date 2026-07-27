@@ -1,0 +1,1 @@
+class PayPalGateway{void makePayment(double a){System.out.println("PayPal "+a);}}

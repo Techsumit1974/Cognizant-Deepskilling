@@ -1,0 +1,1 @@
+class PaymentContext{PaymentStrategy s;PaymentContext(PaymentStrategy s){this.s=s;}void execute(int a){s.pay(a);}}

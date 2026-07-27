@@ -1,0 +1,1 @@
+class ProxyImage implements Image{String f;RealImage r;ProxyImage(String f){this.f=f;}public void display(){if(r==null)r=new RealImage(f);r.display();}}

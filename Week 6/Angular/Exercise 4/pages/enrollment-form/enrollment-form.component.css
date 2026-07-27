@@ -1,0 +1,3 @@
+.ng-invalid.ng-touched{border:1px solid red}
+.ng-valid.ng-touched{border:1px solid green}
+div{color:red;margin:4px 0}

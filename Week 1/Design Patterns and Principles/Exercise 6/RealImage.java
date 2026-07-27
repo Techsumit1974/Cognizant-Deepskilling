@@ -1,0 +1,1 @@
+class RealImage implements Image{String f;RealImage(String f){this.f=f;System.out.println("Loading "+f);}public void display(){System.out.println("Displaying "+f);}}

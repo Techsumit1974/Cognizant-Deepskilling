@@ -1,0 +1,1 @@
+public class Main{public static void main(String[]a){new PaymentContext(new CreditCardPayment()).execute(1000);new PaymentContext(new PayPalPayment()).execute(500);}}

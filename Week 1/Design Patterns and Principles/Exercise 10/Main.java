@@ -1,0 +1,1 @@
+public class Main{public static void main(String[]a){Student s=new Student("John","101","A");StudentController c=new StudentController(s,new StudentView());c.updateView();c.setGrade("A+");c.updateView();}}

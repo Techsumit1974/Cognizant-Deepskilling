@@ -1,0 +1,1 @@
+class RemoteControl{Command c;void setCommand(Command c){this.c=c;}void press(){c.execute();}}

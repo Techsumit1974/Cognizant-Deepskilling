@@ -1,0 +1,1 @@
+class StudentController{Student m;StudentView v;StudentController(Student m,StudentView v){this.m=m;this.v=v;}void setGrade(String g){m.grade=g;}void updateView(){v.displayStudentDetails(m);}}

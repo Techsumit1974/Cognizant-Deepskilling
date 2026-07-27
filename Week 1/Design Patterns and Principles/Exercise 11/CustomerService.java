@@ -1,0 +1,1 @@
+class CustomerService{CustomerRepository r;CustomerService(CustomerRepository r){this.r=r;}String find(int id){return r.findCustomerById(id);}}

@@ -1,0 +1,1 @@
+public class Main{public static void main(String[]a){CustomerService s=new CustomerService(new CustomerRepositoryImpl());System.out.println(s.find(1));}}

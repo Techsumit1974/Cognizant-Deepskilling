@@ -1,0 +1,1 @@
+class SMSNotifierDecorator extends NotifierDecorator{SMSNotifierDecorator(Notifier n){super(n);}public void send(){n.send();System.out.println("SMS sent");}}

@@ -1,0 +1,1 @@
+class WebApp implements Observer{public void update(double p){System.out.println("Web:"+p);}}

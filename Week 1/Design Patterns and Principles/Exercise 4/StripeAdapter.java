@@ -1,0 +1,1 @@
+class StripeAdapter implements PaymentProcessor{StripeGateway g=new StripeGateway();public void processPayment(double a){g.pay(a);}}

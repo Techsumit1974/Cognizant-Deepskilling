@@ -1,0 +1,1 @@
+class PayPalPayment implements PaymentStrategy{public void pay(int a){System.out.println("PayPal "+a);}}
