@@ -1,2 +1,0 @@
-import {Link} from 'react-router-dom';import trainers from '../TrainersMock';
-export default function TrainersList(){return <ul>{trainers.map(t=><li key={t.TrainerId}><Link to={`/trainers/${t.TrainerId}`}>{t.Name}</Link></li>)}</ul>}
